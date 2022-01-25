@@ -22,4 +22,12 @@ $('#btn3').click(() => {
     
   })
 
+
+  /* Add some fun feature to your Event Listeners */
+
+  /* Exercise 1 */
   
+  $('#btn3').click(() => {
+	let color = $('input').val();
+	$('button').css('background-color', `${color}`);
+});
